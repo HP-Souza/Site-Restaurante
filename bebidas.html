@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pageStyles.css">
+    <title>Quentinhas do Grau - Bebidas</title>
+</head>
+<body>
+    <header>
+        <h1>Quentinhas do Grau</h1>
+        <nav class="select-paginas">
+            <a href="home.html">Home</a>
+            <a href="almoco.html">Almoço</a>
+            <a href="jantar.html">Jantar</a>
+            <a href="bebidas.html">Bebidas</a>
+            <a href="sobremesas.html">Sobremesas</a>
+            <a href="cart.html">Carrinho(<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    <h2>Nossas Bebidas</h2>
+    <main>
+
+        <div class="menu-item">
+            <h3>Suco Natural</h3>
+            <p>Suco de laranja fresco.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIdXJ1wuzIxz7FZnRI8uXcGgTHQv3LdiWluQ&s" alt="">
+            <span>R$ 8,00</span>
+            <button onclick="addToCart('Suco Natural', 8)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Refrigerante</h3>
+            <p>Refrigerante em lata.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm4S15squn95k7qtrVOpMX1MOJGe48y4B7FQ&s" alt="">
+            <span>R$ 5,00</span>
+            <button onclick="addToCart('Refrigerante', 5)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Cerveja Artesanal</h3>
+            <p>Cerveja feita artesanalmente.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBrkVD3HHTUAbX4LGjZsbJhT0XvV9AR26eew&s" alt="">
+            <span>R$ 12,00</span>
+            <button onclick="addToCart('Cerveja Artesanal', 12)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Vinho Tinto</h3>
+            <p>Taça de vinho tinto.</p>
+            <img src="https://www.salton.com.br/upload/midia/por-que-girar-a-taca-de-vinho-garrafa.png" alt="">
+            <span>R$ 15,00</span>
+            <button onclick="addToCart('Vinho Tinto', 15)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Água Mineral</h3>
+            <p>Água mineral com gás.</p>
+            <img src="https://www.delgo.com.br/imagens/como-e-feito-o-envase-de-agua-mineral.jpg" alt="">
+            <span>R$ 4,00</span>
+            <button onclick="addToCart('Água Mineral', 4)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Suco de Uva</h3>
+            <p>Suco de uva natural.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Fslrly5q-JMHzvmJZyyoBYgNzZD-n5_gVA&s" alt="">
+            <span>R$ 9,00</span>
+            <button onclick="addToCart('Suco de Uva', 9)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Coquetel de Frutas</h3>
+            <p>Coquetel refrescante de frutas.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRPNl02bY_tMam2-ucgO9ltMWx-Qq3py7kaQ&s" alt="">
+            <span>R$ 14,00</span>
+            <button onclick="addToCart('Coquetel de Frutas', 14)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Chá Gelado</h3>
+            <p>Chá gelado refrescante.</p>
+            <img src="https://www.guiadasemana.com.br/contentFiles/image/opt_w1024h1024/2018/12/FEA/53704_shutterstock-567358789.jpg" alt="">
+            <span>R$ 7,00</span>
+            <button onclick="addToCart('Chá Gelado', 7)">Adicionar ao Carrinho</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Quentinhas do Grau. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+/* Estilo geral do corpo */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Fundo branco */
+    color: #333; /* Texto em cinza escuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: cyan; /* Fundo ciano */
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilo do título principal */
+h1 {
+    margin: 0;
+    color: white; /* Título em branco */
+}
+
+/* Estilo da navegação */
+nav {
+    display: flex; /* Usa flexbox para o layout dos links */
+    justify-content: center; /* Centraliza os links horizontalmente */
+    padding: 10px 0; /* Espaçamento interno */
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white; /* Links em branco */
+    font-weight: bold;
+    transition: color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+nav a:hover {
+    color: #00BFFF; /* Muda a cor do link ao passar o mouse */
+}
+
+/* Estilo da seção principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo dos itens do menu */
+.menu-item {
+    border: 2px solid #00BFFF;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #f0f8ff;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: cyan; /* Fundo ciano */
+    color: white; /* Texto em branco */
+    position: relative;
+    bottom: 0;
+    width: 98.95%;
+}
+
+/* Estilo dos botões */
+button {
+    background-color: cyan; /* Fundo ciano para o botão */
+    color: white; /* Texto do botão em branco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transição suave para o fundo do botão */
+}
+
+button:hover {
+    background-color: #00BFFF; /* Fundo do botão muda ao passar o mouse */
+    transform: scale(1.05);
+    transition-duration: 0.7s;
+}
+
+img{
+    border: 3px solid cyan;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 2px;
+}
+
+#Chef-Imagem{
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    float: right;
+}
+
+#Imagem-Restaurante{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    float: left;
+}
+
+#festa{
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    float: right;
+}

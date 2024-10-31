@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pageStyles.css">
+    <title>Quentinhas do Grau - Almoço</title>
+</head>
+<body>
+    <header>
+        <h1>Quentinhas do Grau</h1>
+        <nav class="select-paginas">
+            <a href="home.html">Home</a>
+            <a href="almoco.html">Almoço</a>
+            <a href="jantar.html">Jantar</a>
+            <a href="bebidas.html">Bebidas</a>
+            <a href="sobremesas.html">Sobremesas</a>
+            <a href="cart.html">Carrinho(<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    <h2>Nossos Pratos de Almoço</h2>
+    <main>
+
+        <div class="menu-item">
+            <h3>Prato do Dia</h3>
+            <p>Frango grelhado com salada fresca.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTacpAso1LNVU3ZwEvlibV_gzHc2wPaJkkNqQ&s" alt="Prato do Dia" class="menu-image">
+            <span>R$ 25,00</span>
+            <button onclick='addToCart("Prato do Dia", 25)'>Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Espaguete à Bolonhesa</h3>
+            <p>Delicioso espaguete com molho bolonhesa caseiro.</p>
+            <img src="https://d21wiczbqxib04.cloudfront.net/JyfpKZ_XGazExoJvoQiknUXCdN8=/0x600/smart/https://osuper-ecommerce-chico.s3.sa-east-1.amazonaws.com/89391ac6-7cb2f5e1receitaespaguetebolonhesatradicional.png" alt="Prato do Dia" class="menu-image">
+            <span>R$ 30,00</span>
+            <button onclick="addToCart('Espaguete à Bolonhesa', 30)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Salada Caesar</h3>
+            <p>Salada clássica com molho Caesar.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHpIZInIUtVl9MVUgzvyB3oZGfUSUql-ixng&s" alt="">
+            <span>R$ 20,00</span>
+            <button onclick="addToCart('Salada Caesar', 20)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Arroz de Pato</h3>
+            <p>Arroz com carne de pato e especiarias.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuBIvUrI8EqfGgozOK3fO3X7z6fyZrY6C2Gw&s" alt="">
+            <span>R$ 35,00</span>
+            <button onclick="addToCart('Arroz de Pato', 35)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Lasanha Vegetariana</h3>
+            <p>Lasanha feita com legumes frescos.</p>
+            <img src="https://img.imageboss.me/kitchenaid/cdn/format:webp/wp-content/uploads/2019/01/WKF-925-Always-On_blog_1920x1080-1920x1080.jpg" alt="">
+            <span>R$ 28,00</span>
+            <button onclick="addToCart('Lasanha Vegetariana', 28)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Feijoada</h3>
+            <p>Feijoada tradicional com arroz e couve.</p>
+            <img src="https://i.panelinha.com.br/i1/bk-9097-39-panelinha-12-02-200635.webp" alt="">
+            <span>R$ 32,00</span>
+            <button onclick="addToCart('Feijoada', 32)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Quiche de Legumes</h3>
+            <p>Quiche recheada com legumes.</p>
+            <img src="https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-quiche-de-legumes.jpg" alt="">
+            <span>R$ 22,00</span>
+            <button onclick="addToCart('Quiche de Legumes', 22)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Sopa do Dia</h3>
+            <p>Sopa quente e reconfortante.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiys3QnFG0b8Hv-Q31Fp3B9tBtZBGha0vvEQ&s" alt="">
+            <span>R$ 18,00</span>
+            <button onclick="addToCart('Sopa do Dia', 18)">Adicionar ao Carrinho</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Quentinhas do Grau. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

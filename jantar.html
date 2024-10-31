@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pageStyles.css">
+    <title>Quentinhas do Grau - Jantar</title>
+</head>
+<body>
+    <header>
+        <h1>Quentinhas do Grau</h1>
+        <nav class="select-paginas">
+            <a href="home.html">Home</a>
+            <a href="almoco.html">Almoço</a>
+            <a href="jantar.html">Jantar</a>
+            <a href="bebidas.html">Bebidas</a>
+            <a href="sobremesas.html">Sobremesas</a>
+            <a href="cart.html">Carrinho(<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    <h2>Nossos Pratos de Jantar</h2>
+    <main>
+
+        <div class="menu-item">
+            <h3>Salmon Grelhado</h3>
+            <p>Salmon grelhado com legumes assados.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQkMVj5u-nJhelHUJTLPhawSSBx-ot_xWlIA&s" alt="">
+            <span>R$ 45,00</span>
+            <button onclick="addToCart('Salmon Grelhado', 45)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Bife ao Ponto</h3>
+            <p>Bife suculento com batatas fritas.</p>
+            <img src="https://guiadacozinha.com.br/wp-content/uploads/2019/10/bife-acebolado-batata-frita-768x619.jpg" alt="">
+            <span>R$ 55,00</span>
+            <button onclick="addToCart('Bife ao Ponto', 55)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Filé de Frango com Molho</h3>
+            <p>Filé de frango grelhado com molho especial.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDcREwjAPUD_XQO33702k1wUsXyd5b1CZvoQ&s" alt="">
+            <span>R$ 40,00</span>
+            <button onclick="addToCart('Filé de Frango com Molho', 40)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Ragu de Carne</h3>
+            <p>Carne cozida lentamente com ervas.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYovZzpGomPV129J9NIFt665V9WY8lgq4LVA&s" alt="">
+            <span>R$ 50,00</span>
+            <button onclick="addToCart('Ragu de Carne', 50)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Pescada à Milanesa</h3>
+            <p>Pescada empanada com purê de batatas.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWPfpheS2ojH5sGqAKIkMCZ2ehnEjUif-Q2w&s" alt="">
+            <span>R$ 42,00</span>
+            <button onclick="addToCart('Pescada à Milanesa', 42)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Pasta com Molho Alfredo</h3>
+            <p>Pasta com molho cremoso e queijo.</p>
+            <img src="https://receitasgalo.com.br/images/receitas/290/galo-imagem-receitas-macarrao-ao-molho-alfredo-share.jpg" alt="">
+            <span>R$ 35,00</span>
+            <button onclick="addToCart('Pasta com Molho Alfredo', 35)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Frango ao Curry</h3>
+            <p>Frango cozido com especiarias indianas.</p>
+            <img src="https://i.panelinha.com.br/i1/bk-5378-frango-ao-curry-com-maca.webp" alt="">
+            <span>R$ 38,00</span>
+            <button onclick="addToCart('Frango ao Curry', 38)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Ratatouille</h3>
+            <p>Prato de legumes assados com ervas.</p>
+            <img src="https://acozinhafrancesa.com.br/wp-content/uploads/2021/08/Ratatouille.jpg" alt="">
+            <span>R$ 30,00</span>
+            <button onclick="addToCart('Ratatouille', 30)">Adicionar ao Carrinho</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Quentinhas do Grau. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

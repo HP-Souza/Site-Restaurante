@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pageStyles.css">
+    <title>Quentinhas do Grau - Sobremesas</title>
+</head>
+<body>
+    <header>
+        <h1>Quentinhas do Grau</h1>
+        <nav class="select-paginas">
+            <a href="home.html">Home</a>
+            <a href="almoco.html">Almoço</a>
+            <a href="jantar.html">Jantar</a>
+            <a href="bebidas.html">Bebidas</a>
+            <a href="sobremesas.html">Sobremesas</a>
+            <a href="cart.html">Carrinho(<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    <h2>Nossas Sobremesas</h2>
+    <main>
+
+        <div class="menu-item">
+            <h3>Brownie de Chocolate</h3>
+            <p>Brownie servido com sorvete.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReWCz5BYVmsefYXonMW7-Zn8ZTMpb7cZIoSQ&s" alt="">
+            <span>R$ 15,00</span>
+            <button onclick="addToCart('Brownie de Chocolate', 15)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Pudim de Leite</h3>
+            <p>Clássico pudim de leite condensado.</p>
+            <img src="https://static.itdg.com.br/images/640-440/d1307a2e17cda187df76b78cfd3ac464/shutterstock-2322251819-1-.jpg" alt="">
+            <span>R$ 12,00</span>
+            <button onclick="addToCart('Pudim de Leite', 12)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Torta de Maçã</h3>
+            <p>Torta de maçã caseira.</p>
+            <img src="https://s2-receitas.glbimg.com/2iR6e3M_vwOw1Wwb9AJNxwu6Siw=/0x0:984x612/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/q/W/eTsNWhTeai02Y0at4Q0g/torta-de-maca-do-rodrigo-hilbert-e-crocante-por-fora-e-fofinha-por-dentro.jpg" alt="">
+            <span>R$ 18,00</span>
+            <button onclick="addToCart('Torta de Maçã', 18)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Cheesecake</h3>
+            <p>Deliciosa cheesecake com calda de frutas.</p>
+            <img src="https://static.itdg.com.br/images/360-240/722816207b46644920ab0c65a7faab72/shutterstock-2202992931.jpg" alt="">
+            <span>R$ 20,00</span>
+            <button onclick="addToCart('Cheesecake', 20)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Gelato</h3>
+            <p>Gelato artesanal de vários sabores.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxx0aHeD66Q8jNFN8wRnIoZKCLHBP5NwtUWQ&s" alt="">
+            <span>R$ 10,00</span>
+            <button onclick="addToCart('Gelato', 10)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Mousse de Chocolate</h3>
+            <p>Mousse leve e cremoso de chocolate.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJATULdjN38EEgZgqrCEgcMFN632OIpqUyCw&s" alt="">
+            <span>R$ 16,00</span>
+            <button onclick="addToCart('Mousse de Chocolate', 16)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Creme Brûlée</h3>
+            <p>Clássico creme brûlée com caramelo.</p>
+            <img src="https://static.itdg.com.br/images/1200-630/520fb41370b8218beeac93c6a7ba5cd3/335694-original.jpg" alt="">
+            <span>R$ 22,00</span>
+            <button onclick="addToCart('Creme Brûlée', 22)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h3>Frutas da Estação</h3>
+            <p>Frutas frescas da estação.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTie4ac0HvfyuH9tnJId66yv9vXGr_v6lAEkg&s" alt="">
+            <span>R$ 9,00</span>
+            <button onclick="addToCart('Frutas da Estação', 9)">Adicionar ao Carrinho</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Quentinhas do Grau. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

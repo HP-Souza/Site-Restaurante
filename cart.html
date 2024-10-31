@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quentinhas do Grau - Carrinho</title>
+</head>
+<body>
+    <header>
+        <h1>Quentinhas do Grau</h1>
+        <nav class="select-paginas">
+            <a href="home.html">Home</a>
+            <a href="almoco.html">Almoço</a>
+            <a href="jantar.html">Jantar</a>
+            <a href="bebidas.html">Bebidas</a>
+            <a href="sobremesas.html">Sobremesas</a>
+            <a href="cart.html" id="cart-link">Carrinho (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Carrinho de Compras</h2>
+        <div id="cart-items">
+            <h3>Itens no Carrinho:</h3>
+            <!-- Items will be displayed here -->
+        </div>
+        <div id="total-price"></div>
+        <button onclick="checkout()">Finalizar Compra</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Quentinhas do Grau. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

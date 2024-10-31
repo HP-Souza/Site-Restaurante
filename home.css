@@ -1,0 +1,68 @@
+/* home.css */
+
+/* Reseta margens e preenchimentos */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Garante que o corpo e HTML ocupem 100% da altura */
+}
+
+.hero-image {
+    background-image: url('QUENTINHAS AZUL.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: contain; /* Faz a imagem cobrir todo o espaço */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    height: 100vh; /* Altura de 100% da altura da viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
+    align-items: center; /* Centraliza horizontalmente o conteúdo */
+    color: white; /* Cor do texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para o texto */
+}
+
+header {
+    position: fixed; /* Faz o cabeçalho fixo no topo */
+    top: 0; /* Alinha o cabeçalho ao topo da página */
+    left: 0; /* Alinha o cabeçalho à esquerda */
+    width: 100%; /* Largura total da tela */
+    background-color: cyan; /* Fundo branco com leve transparência */
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white; /* Links em branco */
+    font-weight: bold;
+    transition: color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+nav a:hover {
+    color: #00BFFF; /* Muda a cor do link ao passar o mouse */
+}
+/* Estilo dos itens do menu */
+.menu-item {
+    border: 2px solid #00BFFF; /* Borda ciano */
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f0f8ff; /* Fundo levemente azul claro */
+    text-align: center; /* Centraliza o texto dentro do item */
+    width: 100%; /* Largura total do item */
+    aspect-ratio: 1; /* Mantém a proporção quadrada */
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: space-between; /* Espaça os itens uniformemente */
+}
+
+.menu-image {
+    width: 100%; /* Largura total para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Bordas arredondadas na imagem */
+    margin: 10px 0; /* Espaço acima e abaixo da imagem */
+}
